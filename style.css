@@ -1,0 +1,99 @@
+body{
+    font-family: 'Playball', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('.//bg3.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 300vh; */    
+}   
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 50px;
+    top: 20px;
+
+}
+.left div{
+    text-align: center;
+    line-height: 1px;
+    font-size: 20px;
+}
+.mid{
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 40px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.left img{
+    width: 100px;
+}
+.btn{
+    font-family: 'Playball', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 3px 4px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(43, 42, 42);
+}
+.container {
+    border: 2px solid white;
+    margin: 45px 110px;
+    padding: 30px 65px;
+    width: 33%;
+    border-radius: 5px;
+}
+.form-group input{
+    font-family: 'Playball', cursive;
+    text-align: center;
+    display: block;
+    width: 370px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 89%;
+    margin: 20px auto;
+    font-size: 22px;
+}
